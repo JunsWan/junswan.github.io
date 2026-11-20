@@ -1,5 +1,5 @@
 # Shijun Wan · Personal homepage
 
-The English homepage is in `index.html` and the Chinese version in `zh.html`. Both use `site.css`. The portrait and downloadable academic CV are stored alongside the pages.
+The academic homepage is in `index.html`, with styles in `site.css`. The portrait and downloadable CV are stored alongside it. The former Chinese page redirects visitors to the English homepage.
 
-The site is served by GitHub Pages from the root of the main branch. It uses plain HTML and CSS.
+GitHub Pages serves this site from the root of the main branch.
