@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Shijun Wan | Academic Homepage</title><meta name="description" content="Shijun Wan, DISC Lab at Fudan University. Publications and research on agent post-training, multimodal learning and logical reasoning.">
-<link rel="stylesheet" href="site.css?v=13e9611d2bdd"></head>
+<link rel="stylesheet" href="site.css?v=fedf8b58754b"></head>
 <body><a class="skip" href="#about">Skip to content</a>
 <header><div class="top"><a class="home" href="#about">Shijun Wan</a>
 <nav aria-label="Sections"><a href="#about">About</a><a href="#news">News</a><a href="#experience">Experience</a><a href="#research">Publications</a><a href="#service">Academic service</a></nav></div></header>
@@ -35,19 +35,90 @@
 <p>I earned my bachelor’s degree in Data Science and Business Analytics at <strong>Central South University</strong>’s Business School, with an average of 91.03/100. <span aria-hidden="true">🏅</span>&nbsp;I won first prize in the division for non-math majors at the 14th <a href="https://www.cmathc.org.cn/jianjie/">Chinese Mathematics Competitions for College Students (CMC)</a>.</p>
 <p><span aria-hidden="true">💼</span>&nbsp;I am currently a research intern on the <a href="https://huggingface.co/AllSpark-Research"><strong>AllSpark Team</strong></a> at Xiaohongshu, mentored by <a href="https://yhlleo.github.io/">Dr. Yahui Liu</a>.</p>
 </section>
-<section id="news"><h2>Recent news</h2>
-<ul class="news"><li><time>2026.10</time><div>Our work on learning from imperfect supervision, <a href="https://arxiv.org/abs/2610.11354">AdaptEvo</a>, is available on arXiv.</div></li><li><time>2026.09</time><div><a href="https://arxiv.org/abs/2609.15695">NoteVQA</a>, our benchmark of everyday visual questions, is available on arXiv.</div></li><li><time>2026.06</time><div>We released <a href="https://github.com/JunsWan/AgentViSS">AgentViSS</a>, a benchmark for visual social intelligence, with code and data.</div></li></ul>
+<section id="news">
+  <h2>Recent news</h2>
+  <ul class="news">
+    <li><time datetime="2026-10">Oct 2026</time><div>
+      <p>Our paper on visual social intelligence appeared in <a href="https://aclanthology.org/2026.findings-emnlp.956/">EMNLP 2026 Findings</a>.</p>
+      <p>We released <a href="https://arxiv.org/abs/2610.11354">AdaptEvo</a>, our work on training agents with imperfect supervision.</p>
+    </div></li>
+    <li><time datetime="2026-09">Sep 2026</time><div>We released <a href="https://arxiv.org/abs/2609.15695">NoteVQA</a>, a benchmark built from image-based questions asked on Xiaohongshu.</div></li>
+    <li><time datetime="2026-06">Jun 2026</time><div>We shared the <a href="https://github.com/JunsWan/AgentViSS">code</a> and <a href="https://huggingface.co/datasets/JunsWan/AgentViSS">data</a> for AgentViSS.</div></li>
+  </ul>
 </section>
-<section id="experience"><h2>Internship experience</h2>
-<article class="record"><div class="record-top"><h3>Xiaohongshu · <a href="https://huggingface.co/AllSpark-Research">AllSpark Team</a></h3><span>Mar 2026 – present</span></div><div>LLM Algorithm Intern · Mentor: <a href="https://yhlleo.github.io/">Dr. Yahui Liu</a></div><p>Multimodal moderation agents, reinforcement learning for logic reasoning, and mixed text–vision post-training.</p></article><article class="record"><div class="record-top"><h3>Liberty Mutual · Actuarial Department</h3><span>Feb – Jun 2025</span></div><div>Data Analysis Intern</div></article>
+<section id="experience">
+  <h2>Internship experience</h2>
+  <article class="record">
+    <div class="record-top"><h3>Xiaohongshu · <a href="https://huggingface.co/AllSpark-Research">AllSpark Team</a></h3><span>Mar 2026 – present</span></div>
+    <div class="record-role">LLM Algorithm Intern · Mentor: <a href="https://yhlleo.github.io/">Dr. Yahui Liu</a></div>
+    <p>I work on multimodal content moderation, reinforcement learning for logical reasoning, and joint text–vision post-training. In <a href="https://arxiv.org/abs/2610.11354">AdaptEvo</a>, we train moderation agents to weigh the evidence behind each reference label.</p>
+  </article>
+  <article class="record">
+    <div class="record-top"><h3>Liberty Mutual · Actuarial Department</h3><span>Feb – Jun 2025</span></div>
+    <div class="record-role">Data Analysis Intern</div>
+  </article>
 </section>
-<section id="research"><h2>Publications</h2>
-<h3 class="subhead">Conference papers</h3>
-<article class="paper"><h4 lang="en"><a href="https://arxiv.org/abs/2606.15152">Can Agents Read the Room? Benchmarking Visual Social Intelligence in Multimodal Simulation</a></h4><div class="authors" lang="en"><strong>Shijun Wan</strong>, Xuehai Wu, Jiwen Zhang, Siyuan Wang, Zhongyu Wei</div><div class="publine"><em>EMNLP 2026 Findings</em><span class="resources"><a href="https://arxiv.org/abs/2606.15152">arXiv</a> <a href="https://github.com/JunsWan/AgentViSS">Code</a> <a href="https://huggingface.co/datasets/JunsWan/AgentViSS">Data</a></span></div><p>AgentViSS evaluates how multimodal agents use visual cues in 240 social scenarios.</p></article>
-<article class="paper"><h4 lang="en"><a href="https://arxiv.org/abs/2510.12563">HardcoreLogic: Challenging Large Reasoning Models with Long-tail Logic Puzzle Games</a></h4><div class="authors" lang="en">Jingcong Liang*, <strong>Shijun Wan</strong>*, Xuehai Wu*, et al.</div><div class="publine"><em>ICLR 2026 · Equal contribution</em><span class="resources"><a href="https://arxiv.org/abs/2510.12563">arXiv</a> <a href="https://github.com/ljcleo/hardcore-logic">Code</a> <a href="https://huggingface.co/datasets/xhWu-fd/HardcoreLogic">Data</a> <a href="https://huggingface.co/spaces/JunsWan/HardcoreLogic">Leaderboard</a></span></div><p>A benchmark of 5,250 logic puzzles across ten games, including unfamiliar rules and puzzles with no solution.</p></article>
-<h3 class="subhead">Preprints</h3>
-<article class="paper"><h4 lang="en"><a href="https://arxiv.org/abs/2610.11354">AdaptEvo: Learning under Imperfect Supervision through Confidence-Adaptive Training with Knowledge Evolution</a></h4><div class="authors" lang="en"><a href="https://huggingface.co/AllSpark-Research">AllSpark Team</a></div><div class="publine"><em>Under review · First author</em><span class="resources"><a href="https://arxiv.org/abs/2610.11354">arXiv</a> <a href="https://github.com/AllSpark-Research/AdaptEvo">Code</a></span></div><p>AdaptEvo adapts outcome and process rewards to the reliability of each label and refines decision guidance from recurring training errors.</p></article>
-<article class="paper"><h4 lang="en"><a href="https://arxiv.org/abs/2609.15695">NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities</a></h4><div class="authors" lang="en">Haonan Jiang, Guojian Zhan, Jiancong Xie, <strong>Shijun Wan</strong>, et al.</div><div class="publine"><em>Under review · Co-author</em><span class="resources"><a href="https://arxiv.org/abs/2609.15695">arXiv</a></span></div><p>A visual question answering benchmark built from 252 questions people asked in online communities.</p></article>
+<section id="research">
+  <h2>Publications</h2>
+  <h3 class="subhead">Conference papers</h3>
+  <article class="paper">
+    <a class="paper-visual" href="https://arxiv.org/pdf/2606.15152#page=1" aria-label="View AgentViSS Figure 1 in the paper (PDF)">
+      <img class="paper-figure" src="paper-figures/agentviss.webp" alt="An AgentViSS example highlights facial expressions and posture during a conversation." width="180" height="115" loading="lazy">
+    </a>
+    <div class="paper-venue">EMNLP 2026 Findings</div>
+    <h4><a href="https://aclanthology.org/2026.findings-emnlp.956/">Can Agents Read the Room? Benchmarking Visual Social Intelligence in Multimodal Simulation</a></h4>
+    <div class="authors"><strong>Shijun Wan</strong>, Xuehai Wu, Jiwen Zhang, Siyuan Wang, Zhongyu Wei</div>
+    <p class="paper-summary">Across 240 social scenarios, seven multimodal models often stayed in character but struggled to use visual cues to steer a conversation.</p>
+    <div class="resources">
+      <a href="https://aclanthology.org/2026.findings-emnlp.956/">ACL Anthology</a>
+      <a href="https://arxiv.org/abs/2606.15152">arXiv</a>
+      <a href="https://github.com/JunsWan/AgentViSS">Code</a>
+      <a href="https://huggingface.co/datasets/JunsWan/AgentViSS">Data</a>
+    </div>
+  </article>
+  <article class="paper">
+    <a class="paper-visual" href="https://arxiv.org/pdf/2510.12563#page=2" aria-label="View HardcoreLogic Figure 1 in the paper (PDF)">
+      <img class="paper-figure" src="paper-figures/hardcorelogic.webp" alt="A standard Sudoku grid alongside variants with irregular regions and added diagonal constraints." width="180" height="115" loading="lazy">
+    </a>
+    <div class="paper-venue">ICLR 2026 <span>· Equal contribution</span></div>
+    <h4><a href="https://openreview.net/forum?id=8USxc43D3I">HardcoreLogic: Challenging Large Reasoning Models with Long-tail Logic Puzzle Games</a></h4>
+    <div class="authors">Jingcong Liang*, <strong>Shijun Wan</strong>*, Xuehai Wu*, et al.</div>
+    <p class="paper-summary">Across 5,250 puzzles in ten games, we test how reasoning models adapt to unfamiliar rules and recognize when a puzzle has no solution.</p>
+    <div class="resources">
+      <a href="https://openreview.net/forum?id=8USxc43D3I">OpenReview</a>
+      <a href="https://arxiv.org/abs/2510.12563">arXiv</a>
+      <a href="https://github.com/ljcleo/hardcore-logic">Code</a>
+      <a href="https://huggingface.co/datasets/xhWu-fd/HardcoreLogic">Data</a>
+      <a href="https://huggingface.co/spaces/JunsWan/HardcoreLogic">Leaderboard</a>
+    </div>
+  </article>
+  <h3 class="subhead">Preprints</h3>
+  <article class="paper preprint">
+    <a class="paper-visual" href="https://arxiv.org/pdf/2610.11354#page=4" aria-label="View AdaptEvo Figure 2 in the paper (PDF)">
+      <img class="paper-figure" src="paper-figures/adaptevo.webp" alt="AdaptEvo shifts weight from process rewards to outcome rewards as confidence in the reference label increases." width="180" height="115" loading="lazy">
+    </a>
+    <div class="paper-venue">Under review <span>· First author</span></div>
+    <h4><a href="https://arxiv.org/abs/2610.11354">AdaptEvo: Learning under Imperfect Supervision through Confidence-Adaptive Training with Knowledge Evolution</a></h4>
+    <div class="authors"><a href="https://huggingface.co/AllSpark-Research">AllSpark Team</a></div>
+    <p class="paper-summary">AdaptEvo weighs feedback by its reliability and learns from recurring errors. It improves exact-label accuracy by 7.5 percentage points over GRPO on the in-period moderation test.</p>
+    <div class="resources">
+      <a href="https://arxiv.org/abs/2610.11354">arXiv</a>
+      <a href="https://github.com/AllSpark-Research/AdaptEvo">Code</a>
+    </div>
+  </article>
+  <article class="paper preprint">
+    <a class="paper-visual" href="https://arxiv.org/pdf/2609.15695#page=1" aria-label="View NoteVQA Figure 1 in the paper (PDF)">
+      <img class="paper-figure" src="paper-figures/notevqa.webp" alt="Radar chart comparing human and model answers across twelve evaluation dimensions." width="180" height="115" loading="lazy">
+    </a>
+    <div class="paper-venue">Under review <span>· Co-author</span></div>
+    <h4><a href="https://arxiv.org/abs/2609.15695">NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities</a></h4>
+    <div class="authors">Haonan Jiang, Guojian Zhan, Jiancong Xie, <strong>Shijun Wan</strong>, et al.</div>
+    <p class="paper-summary">On 252 photo-based questions from Xiaohongshu users, the best of nine vision-language models answered 52.8% correctly.</p>
+    <div class="resources">
+      <a href="https://arxiv.org/abs/2609.15695">arXiv</a>
+      <a href="https://huggingface.co/datasets/AllSpark-Research/NoteVQA">Data</a>
+    </div>
+  </article>
 </section>
 <section id="service"><h2>Academic service</h2>
 <p><span aria-hidden="true">📝</span>&nbsp;Reviewer for the International Conference on Learning Representations (ICLR 2027).</p>
